@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T08:00:23.841Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="65UOE2PgmStiprPLxtH9" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T14:33:26.073Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="hVXbTWAZHyZaBo1jjcqG" version="16.6.7" type="github">
   <diagram id="eGYkf9uve35rr_MD60P2" name="Page-1">
     <mxGraphModel dx="731" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -43,14 +43,14 @@
         <mxCell id="mf0fESU0HonWNACRzm_F-14" value="PCF Program Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="299" y="90" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mf0fESU0HonWNACRzm_F-16" value="Formalized PCF program&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="210" width="210" height="20" as="geometry" />
+        <mxCell id="mf0fESU0HonWNACRzm_F-16" value="PCF&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="215" width="65.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mf0fESU0HonWNACRzm_F-17" value="Continuation Passing Style PCF Program" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="310" width="140" height="20" as="geometry" />
+        <mxCell id="mf0fESU0HonWNACRzm_F-17" value="CPS&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="204" y="310" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mf0fESU0HonWNACRzm_F-19" value="LLVM-liked SSA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="410" width="110" height="20" as="geometry" />
+          <mxGeometry x="184" y="420" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mf0fESU0HonWNACRzm_F-20" value="LLVM IR AST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="510" width="130" height="20" as="geometry" />
@@ -58,14 +58,61 @@
         <mxCell id="rA9iLyOAVAYKzCdUelN6-1" value="PCF -&amp;gt; LLVM Compilation" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="210" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tm-VDQOlqyNDM26cyFmt-1" value="operational semantics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="150" height="30" as="geometry" />
+        <mxCell id="tm-VDQOlqyNDM26cyFmt-1" value="operational semantics of PCF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="205" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tm-VDQOlqyNDM26cyFmt-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mf0fESU0HonWNACRzm_F-19">
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-1" value="Bisimulation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-2" value="itree semantics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=11;endSize=3.03;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="420" as="sourcePoint" />
-            <mxPoint x="400" y="430" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="240" y="250" as="sourcePoint" />
+            <mxPoint x="240" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12;endSize=2.65;endWidth=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint" />
+            <mxPoint x="240" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="430" as="sourcePoint" />
+            <mxPoint x="150" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-6" value="itree semantics of SSA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-7" value="operational&amp;nbsp;semantics of SSA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="410" width="206" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="430" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-9" value="itree semantics of PCF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="194.5" y="224.5" as="sourcePoint" />
+            <mxPoint x="160" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0bTgaEY5j6vtAIo3rEch-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="225" as="sourcePoint" />
+            <mxPoint x="320" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
