@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T17:25:13.271Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qcnLobJEOmi3gtaF3Mpf" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T17:27:05.343Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fihRVGkV7gjYwE2I4pWf" version="20.2.4" type="github">
   <diagram id="YxnLWLMO6ozUfLsjNVaU" name="Page-1">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -17,20 +17,20 @@
         <mxCell id="k2wzW1dM9v49gatQuPnG-13" value="$$\exists&amp;nbsp;S_{ssa}\prime&lt;br&gt;,&amp;nbsp;S_{ssa} \\ 经过一步或多步转换&lt;br&gt;到达 S_{ssa}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="340" width="255" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k2wzW1dM9v49gatQuPnG-14" value="$$\exists&amp;nbsp;S_{ssa}\prime&lt;br&gt;,&amp;nbsp;S_{ssa}经过\\零步转换到达 S_{ssa}\prime&lt;br&gt;，且\\ M(S_{ssa\prime})&amp;lt; M(S_{ssa})&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="k2wzW1dM9v49gatQuPnG-14" value="$$\exists&amp;nbsp;S_{ssa}\prime&lt;br&gt;,&amp;nbsp;S_{ssa}经过\\零步转换到达 S_{ssa}\prime&lt;br&gt;，且\\ M(S_{ssa}\prime&lt;br&gt;)&amp;lt; M(S_{ssa})&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="340" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k2wzW1dM9v49gatQuPnG-16" value="$$S_{cps}\prime\sim S_{ssa}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="400" width="170" height="30" as="geometry" />
+          <mxGeometry x="365" y="400" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k2wzW1dM9v49gatQuPnG-18" value="$$G_{proc}(t_{cps})=program_{ssa},\\ t_{cps}&lt;br&gt;\Downarrow B\Longrightarrow program_{ssa}\Downarrow B&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="252.5" y="460" width="385" height="40" as="geometry" />
+        <mxCell id="k2wzW1dM9v49gatQuPnG-18" value="$$Comp_{2}(t_{cps})=t_{ssa},\\ t_{cps}&lt;br&gt;\Downarrow B\Longrightarrow t_{ssa}\Downarrow B&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="306.25" y="460" width="287.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k2wzW1dM9v49gatQuPnG-19" value="$$B=terminate\, n$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="530" width="130" height="30" as="geometry" />
+          <mxGeometry x="310" y="520" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k2wzW1dM9v49gatQuPnG-20" value="$$B=diverge$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="530" width="140" height="30" as="geometry" />
+          <mxGeometry x="460" y="520" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k2wzW1dM9v49gatQuPnG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="k2wzW1dM9v49gatQuPnG-16" target="k2wzW1dM9v49gatQuPnG-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
