@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2022-08-16T17:52:50.917Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="laDozyR_9flgbK1PcIUD" version="20.2.4" type="github">
+  <diagram id="YxnLWLMO6ozUfLsjNVaU" name="Page-1">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k2wzW1dM9v49gatQuPnG-10" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="k2wzW1dM9v49gatQuPnG-11" target="6hgPlpdHgaeIozYus3VO-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.9999999999999" y="190" as="sourcePoint" />
+            <mxPoint x="300" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-11" value="$$S_{pcf}\sim S_{cps},S_{pcf}\rightarrow S_{pcf}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-13" value="$$\exists&amp;nbsp;S_{cps}\prime&lt;br&gt;,&amp;nbsp;S_{cps} \\ 经过一步或多步转换&lt;br&gt;到达 S_{cps}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="322.5" y="340" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-16" value="$$S_{pcf}\prime\sim S_{cps}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="400" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-18" value="$$Comp_{1}(t_{pcf})=t_{cps},\\ t_{pcf}&lt;br&gt;\Downarrow B\Longrightarrow t_{cps}\Downarrow B&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="306.25" y="460" width="287.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-19" value="$$B=terminate\, n$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="520" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-20" value="$$B=diverge$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="520" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="k2wzW1dM9v49gatQuPnG-16" target="k2wzW1dM9v49gatQuPnG-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-31" value="" style="endArrow=classicThin;html=1;strokeWidth=0.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" parent="1" source="k2wzW1dM9v49gatQuPnG-11" target="k2wzW1dM9v49gatQuPnG-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-33" value="" style="endArrow=classicThin;html=1;strokeWidth=0.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" parent="1" source="k2wzW1dM9v49gatQuPnG-13" target="k2wzW1dM9v49gatQuPnG-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415" y="320" as="sourcePoint" />
+            <mxPoint x="390" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-35" value="" style="endArrow=classicThin;html=1;strokeWidth=0.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" parent="1" source="k2wzW1dM9v49gatQuPnG-18" target="k2wzW1dM9v49gatQuPnG-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="455" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k2wzW1dM9v49gatQuPnG-36" value="" style="endArrow=classicThin;html=1;strokeWidth=0.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" parent="1" source="k2wzW1dM9v49gatQuPnG-18" target="k2wzW1dM9v49gatQuPnG-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="540" as="sourcePoint" />
+            <mxPoint x="395" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6hgPlpdHgaeIozYus3VO-1" value="$$定义&lt;br&gt;S_{pcf}与S_{cps}&lt;br&gt;\\ 之间的匹配关系\sim$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6hgPlpdHgaeIozYus3VO-5" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="k2wzW1dM9v49gatQuPnG-18" target="k2wzW1dM9v49gatQuPnG-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
