@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T15:56:40.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="73ak_izf0KzXWvH-Qpva" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-25T16:53:34.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aVZLx_B3w9rP2DGaZ0PH" version="20.8.10" type="github">
   <diagram name="第 1 页" id="VPZiB18nnhILlqS88p_2">
     <mxGraphModel dx="1052" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -14,13 +14,13 @@
         <mxCell id="QHHVyBg31WiNpmlo0UfJ-2" value="$$S_{pcf}\sim S_{cps},S_{pcf}\rightarrow S_{pcf}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="280" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QHHVyBg31WiNpmlo0UfJ-3" value="$$\exists&amp;nbsp;S_{cps}\prime&lt;br&gt;,&amp;nbsp;S_{cps} \\ 经过一步或多步转换&lt;br&gt;到达 S_{cps}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QHHVyBg31WiNpmlo0UfJ-3" value="$$\exists&amp;nbsp;S_{cps}\prime&lt;br&gt;,&amp;nbsp;S_{cps} \xrightarrow{+}&lt;br&gt;&amp;nbsp;S_{cps}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="322.5" y="340" width="255" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHHVyBg31WiNpmlo0UfJ-4" value="$$S_{pcf}\prime\sim S_{cps}\prime&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="400" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QHHVyBg31WiNpmlo0UfJ-5" value="$$Comp_{1}(t_{pcf})=t_{cps},\\ t_{pcf}&lt;br&gt;\Downarrow B\Longrightarrow t_{cps}\Downarrow B&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QHHVyBg31WiNpmlo0UfJ-5" value="$$\mathcal{F}_{proc}(t_{pcf})=t_{cps},\\ t_{pcf}&lt;br&gt;\Downarrow B\Longrightarrow t_{cps}\Downarrow B&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="306.25" y="460" width="287.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHHVyBg31WiNpmlo0UfJ-6" value="$$B=terminate\, n$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
