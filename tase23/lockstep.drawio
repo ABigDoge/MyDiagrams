@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T15:43:54.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CCp6j4SZ5SWqdmh6hAci" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T15:45:21.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ikF8KCQLzKzyZXpImNKI" version="20.8.13" type="github">
   <diagram name="第 1 页" id="1cW0XYLw_u3RI7F_5rWl">
     <mxGraphModel dx="1052" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -35,19 +35,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vwP1nTNleWjC32QjRGnY-9" value="$$step_1$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="160" width="40" height="20" as="geometry" />
+          <mxGeometry x="220" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vwP1nTNleWjC32QjRGnY-10" value="$$step_2$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="334" y="160" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="vwP1nTNleWjC32QjRGnY-11" value="$$+$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="374" y="160" width="40" height="20" as="geometry" />
+          <mxGeometry x="340" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vwP1nTNleWjC32QjRGnY-12" value="$$\sim$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="90" width="40" height="20" as="geometry" />
+          <mxGeometry x="300" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vwP1nTNleWjC32QjRGnY-13" value="$$\sim$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="190" width="40" height="20" as="geometry" />
+          <mxGeometry x="300" y="200" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
