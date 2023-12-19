@@ -1,9 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T10:27:43.263Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="4q-81Wa87IjY1-Jdg1o8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T10:32:46.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bAlsh2zTxi8jMA4chmqx" version="22.1.11" type="github">
   <diagram name="第 1 页" id="V14EhFcgrSWueC0OwyNH">
-    <mxGraphModel>
+    <mxGraphModel dx="982" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KmfpdAIRS1_6J4HnISgf-2" target="KmfpdAIRS1_6J4HnISgf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;C, C++, Rust, Swift, Haskell...&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KmfpdAIRS1_6J4HnISgf-5" target="KmfpdAIRS1_6J4HnISgf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;LLVM IR&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="195" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KmfpdAIRS1_6J4HnISgf-7" target="KmfpdAIRS1_6J4HnISgf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-7" value="&lt;font style=&quot;font-size: 16px&quot;&gt;代码生成, JIT&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-8" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;ARM,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PowerPC,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;X86, Mips...&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;程序分析与优化&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KmfpdAIRS1_6J4HnISgf-9" target="KmfpdAIRS1_6J4HnISgf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KmfpdAIRS1_6J4HnISgf-13" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="KmfpdAIRS1_6J4HnISgf-5" target="KmfpdAIRS1_6J4HnISgf-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="160" />
+              <mxPoint x="440" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
