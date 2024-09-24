@@ -232,11 +232,11 @@
         <mxCell id="I9Kv1Mkpv6eCRe7bFn_e-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B5739D;" vertex="1" parent="1">
           <mxGeometry x="239.25" y="1200" width="245.75" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="I9Kv1Mkpv6eCRe7bFn_e-8" value="&lt;font color=&quot;#b5739d&quot;&gt;DNN Layer 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="I9Kv1Mkpv6eCRe7bFn_e-8" value="&lt;font color=&quot;#b5739d&quot;&gt;DNN Layer&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#b5739d&quot;&gt;half 1&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="398" y="970" width="87" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I9Kv1Mkpv6eCRe7bFn_e-9" value="&lt;font color=&quot;#b5739d&quot;&gt;DNN Layer 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1200" width="87" height="30" as="geometry" />
+        <mxCell id="I9Kv1Mkpv6eCRe7bFn_e-9" value="&lt;font color=&quot;#b5739d&quot;&gt;DNN Layer&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#b5739d&quot;&gt;half 2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="398" y="1200" width="87" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
